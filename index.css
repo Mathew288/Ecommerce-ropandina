@@ -1,0 +1,67 @@
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  color: #fff;
+  font-size: 36px;
+  font-weight: bolder;
+  text-shadow: 5px 5px 8px #000000da;
+  text-align: center;
+}
+section#publicidad_home{
+  height: 300px;
+  width: 100%;
+  background-image: url('https://cdn.pixabay.com/photo/2021/11/15/05/25/boutique-6796399_1280.jpg') ;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+section#productos{
+  align-items: center;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.cards{
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+section#productos .cards div{
+  height: 350px;
+  width: 350px;
+  background-color: rgb(70, 68, 68);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+section#productos .cards div p{
+  color: #fff;
+  text-align: center;
+}
+
+div .product_card{
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
